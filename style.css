@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 :root {
-    --primary-color: white;
+    --primary-color: rgb(136, 32, 136);
     --secondary-color: rgb(60, 13, 70);
-    background-image: linear-gradient(rgb(234, 110, 238), rgb(60, 115, 160));
+    background-image: linear-gradient(rgb(242, 156, 245), rgb(60, 115, 160));
     background-repeat:no-repeat;
     min-height: 100vh;
 }
@@ -19,7 +19,7 @@ body{
   
     color: var(--secondary-color);
     padding: 2rem;
-    max-width: 730px;
+    max-width: 780px;
     height: 143px;
     margin: auto;
     text-align: center;
@@ -32,4 +32,53 @@ li{
      font-weight: bold;
  margin-inline: 15px;
 }
+h1{
+    text-align: center;
+    color:var(--secondary-color);
+    text-decoration: underline;
+}
+label{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+button{
+  
+    border-style: solid;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    height: 38px;
+    width: 178px;
+    border-radius: 25px;
+}
+    section{
+        text-align: center;
+    }
+
+    h2{
+        color: var(--secondary-color);
+    }
+    footer{
+        display: grid;
+        padding: 7rem;
+        color: var(--primary-color);
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+    }
+    p{
+        color: var(--primary-color);
+        text-align: center;
+        font-weight: bold;
+    }
+    input{
+        border: 2px solid var(--secondary-color);
+        width: 150px;
+        height: 19px;
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+    
 
