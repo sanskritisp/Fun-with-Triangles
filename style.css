@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+:root {
+    --primary-color: white;
+    --secondary-color: rgb(60, 13, 70);
+    background-image: linear-gradient(rgb(234, 110, 238), rgb(60, 115, 160));
+    background-repeat:no-repeat;
+    min-height: 100vh;
+}
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: underline;
+}
+.navigation {
+  
+    color: var(--secondary-color);
+    padding: 2rem;
+    max-width: 730px;
+    height: 143px;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+}
+
+li{
+    display: inline;
+    font-size: large;
+     font-weight: bold;
+ margin-inline: 15px;
+}
+
